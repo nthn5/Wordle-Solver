@@ -1,0 +1,82 @@
+html{
+    font-family: Arial;
+    color-scheme: dark;
+}
+ 
+#flex{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+#column{
+    display: flex;
+    flex-direction: column;
+}
+ 
+form{
+    display: flex;
+    align-items: center;
+}
+ 
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+ 
+#restart-button{
+    width: 54px;
+    height: 24px;
+    font-size: 14px;
+    margin-left: 6px;
+    padding: 2px;
+}
+ 
+form{
+    display: flex;
+    justify-content: center;
+}
+ 
+input[type=text]{
+    text-transform: uppercase;
+}
+ 
+#box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+ 
+#suggested{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    margin-top: 18px;
+    border-bottom: 1.5px solid #3a3a3c;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+}
+ 
+header{
+    font-size: 44px;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid #3a3a3c;
+    margin-bottom: 20px;
+    font-family: 'nyt-karnakcondensed';
+    font-weight: bold;
+}
+ 
+@keyframes animation{
+    from{transform: scale(1);}
+    to{transform: scale(1.1);}
+}
+ 
+.animate-letters{
+    animation-name: animation;
+    animation-duration: .04s;
+}

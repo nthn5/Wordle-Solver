@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./wordle-website.css">
+        <meta charset = "UTF-8">
+        <title>Wordle Solver</title>
+    </head>
+    <body>
+        <header>Wordle Solver</header>
+        <div id="flex">
+            <div id="column">
+                <div id="box-container"></div>
+                <form>
+                    <input type="button" id="restart-button" value="Restart" onclick="restart()">
+                </form>
+            </div>
+            <div>
+                <div id="suggested">Suggested Words</div>
+                <div id="parent"></div>
+            </div>
+        </div>
+        <script src="./words.js"></script>
+        <script src="./words2.js"></script>
+        <script src="./wordle-website.js"></script>
+    </body>
+</html>
